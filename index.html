@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Información</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulario de Información</h2>
+        <form action="procesar_formulario.php" method="post">
+            <label for="usuarios">Usuarios:</label>
+            <input type="text" id="usuarios" name="usuarios" required>
+
+            <label for="inventarios">Inventarios:</label>
+            <input type="text" id="inventarios" name="inventarios" required>
+
+            <label for="rutas">Rutas de entrega:</label>
+            <input type="text" id="rutas" name="rutas" required>
+
+            <label for="agentes">Agentes aliados:</label>
+            <input type="text" id="agentes" name="agentes" required>
+
+            <label for="personal">Personal:</label>
+            <input type="text" id="personal" name="personal" required>
+
+            <label for="analisis">Análisis descriptivo:</label>
+            <input type="text" id="analisis" name="analisis" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
